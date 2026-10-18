@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBankInfo>
+  <RootPath>Audio/GeneratedSoundBanks/Windows</RootPath>
+  <SoundBankPlatform>Windows</SoundBankPlatform>
+  <StreamedFiles>
+      <StreamedFile Id="31001" Name="Music_Theme_01" Language="SFX" Path="Audio/Streamed/Music_Theme_01.wem" SoundBankShortName="Music" />
+      <StreamedFile Id="31002" Name="Music_Combat_01" Language="SFX" Path="Audio/Streamed/Music_Combat_01.wem" SoundBankShortName="Music" />
+      <StreamedFile Id="31003" Name="Amb_Forest_Loop" Language="SFX" Path="Audio/Streamed/Amb_Forest_Loop.wem" SoundBankShortName="Music" />
+      <StreamedFile Id="31004" Name="VO_Player_Grunt" Language="English" Path="Audio/Streamed/VO_Player_Grunt.wem" SoundBankShortName="SFX" />
+      <StreamedFile Id="31005" Name="SFX_Explosion_Short" Language="SFX" Path="Audio/Streamed/SFX_Explosion_Short.wem" SoundBankShortName="SFX" />
+  </StreamedFiles>
+  <SoundBanks>
+    <SoundBank ShortName="Init" Id="1355168290" Name="Init.bnk" Path="Init.bnk" Platform="Windows" MemoryBytes="4096" SizeBytes="4200" Language="SFX">
+      <EventList>
+        <Event Id="1001" Name="Play_Init" />
+      </EventList>
+    </SoundBank>
+    <SoundBank ShortName="SFX" Id="1355168291" Name="SFX.bnk" Path="SFX.bnk" Platform="Windows" MemoryBytes="180000000" SizeBytes="180040000" Language="SFX">
+      <StreamedFileList>
+        <StreamedFile Id="31005" />
+      </StreamedFileList>
+      <EventList>
+        <Event Id="2001" Name="Play_Gunshot" />
+        <Event Id="2002" Name="Play_Explosion" />
+        <Event Id="2003" Name="Play_Footstep" />
+      </EventList>
+    </SoundBank>
+    <SoundBank ShortName="Music" Id="3991942870" Name="Music.bnk" Path="Music.bnk" Platform="Windows" MemoryBytes="8192" SizeBytes="12000" Language="SFX">
+      <StreamedFileList>
+        <StreamedFile Id="31001" />
+        <StreamedFile Id="31002" />
+        <StreamedFile Id="31003" />
+      </StreamedFileList>
+      <EventList>
+        <Event Id="3001" Name="Play_Music_Theme" />
+        <Event Id="3002" Name="Play_Music_Combat" />
+      </EventList>
+    </SoundBank>
+    <SoundBank ShortName="VO" Id="202899026" Name="VO.bnk" Path="VO.bnk" Platform="Windows" MemoryBytes="1200000" SizeBytes="1210000" Language="English">
+      <StreamedFileList>
+        <StreamedFile Id="31004" />
+      </StreamedFileList>
+      <EventList>
+        <Event Id="4001" Name="Play_VO_Grunt" />
+      </EventList>
+    </SoundBank>
+  </SoundBanks>
+</SoundBankInfo>

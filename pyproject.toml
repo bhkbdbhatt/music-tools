@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "audiosure"
+version = "0.1.0"
+description = "Cross-platform game audio certification: budgets, profiling, fix reports"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["game-audio", "certification", "wwise", "fmod", "unity", "unreal", "profiling"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Multimedia :: Sound/Audio",
+    "Topic :: Software Development :: Quality Assurance",
+]
+dependencies = []
+
+[project.scripts]
+audiosure = "audiosure.cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

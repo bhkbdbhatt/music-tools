@@ -1,0 +1,21 @@
+{
+  "name": "audiosure",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Cross-platform game audio certification: budgets, profiling, fix reports",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "pnpm -r --filter \"./packages/*\" build",
+    "test": "pnpm -r --filter \"./packages/*\" test",
+    "fixtures": "node packages/cli/dist/index.js fixtures generate",
+    "certify:demo": "node packages/cli/dist/index.js certify --input fixtures/wwu-demo --platforms all --out reports/demo",
+    "dash": "node packages/cli/dist/index.js dash",
+    "typecheck": "pnpm -r --filter \"./packages/*\" typecheck"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4"
+  }
+}

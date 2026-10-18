@@ -1,0 +1,26 @@
+{
+  "name": "@audiosure/cli",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": {
+    "audiosure": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/index.js",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@audiosure/core": "workspace:*",
+    "@audiosure/engine": "workspace:*",
+    "@audiosure/parsers": "workspace:*",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3",
+    "vitest": "^2.1.4",
+    "@types/node": "^22.9.0"
+  }
+}

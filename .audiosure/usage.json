@@ -1,0 +1,178 @@
+{
+  "month": "2026-10",
+  "builds": 14,
+  "history": [
+    {
+      "at": "2026-10-18T11:20:13.230753Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "D:\\music-tools\\fixtures\\wwu-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T11:19:51.081519Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/wwu-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T11:19:22.316247Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "D:\\music-tools\\fixtures\\wwu-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T11:18:01.098953Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/wwu-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T11:17:51.767373Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "mobile"
+      ],
+      "input": "fixtures\\unity-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T11:17:36.538728Z",
+      "platforms": [
+        "pc",
+        "mobile"
+      ],
+      "input": "fixtures-py/fmod-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T11:17:28.967841Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/wwu-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T11:16:30.839761Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/wwu-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T08:16:55.962Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "switch2"
+      ],
+      "input": "fixtures/fmod-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T08:16:47.480Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/unity-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T08:16:14.485Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/fmod-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T08:16:14.323Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/unity-demo",
+      "passed": true
+    },
+    {
+      "at": "2026-10-18T08:15:17.593Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/wwu-demo",
+      "passed": false
+    },
+    {
+      "at": "2026-10-18T08:13:55.752Z",
+      "platforms": [
+        "pc",
+        "ps5",
+        "xbox",
+        "switch2",
+        "mobile",
+        "vr"
+      ],
+      "input": "fixtures/wwu-demo",
+      "passed": false
+    }
+  ]
+}

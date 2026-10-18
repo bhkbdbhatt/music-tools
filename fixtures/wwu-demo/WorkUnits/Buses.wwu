@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{22222222-2222-2222-2222-222222222222}" SchemaVersion="2">
+  <AudioObjects>
+    <Bus Name="Master Audio Bus" ID="{40000000-0000-0000-0000-000000000001}" />
+    <AuxBus Name="Reverb_Large_Hall" ID="{40000000-0000-0000-0000-000000000002}">
+      <Fx Plugin="Audiokinetic Wwise Convolution Reverb" Name="Reverb_Large_Hall_Conv" ID="{50000000-0000-0000-0000-000000000001}">
+        <Property Name="uIRDurationSec" Value="2.0" />
+        <Property Name="uIRChannelCount" Value="2" />
+      </Fx>
+    </AuxBus>
+    <AuxBus Name="Reverb_Cave" ID="{40000000-0000-0000-0000-000000000003}">
+      <Fx Plugin="Audiokinetic Wwise Convolution Reverb" Name="Reverb_Cave_Conv" ID="{50000000-0000-0000-0000-000000000002}">
+        <Property Name="uIRDurationSec" Value="2.5" />
+        <Property Name="uIRChannelCount" Value="2" />
+      </Fx>
+    </AuxBus>
+    <AuxBus Name="Reverb_Small_Room" ID="{40000000-0000-0000-0000-000000000004}">
+      <Fx Plugin="Audiokinetic Wwise Convolution Reverb" Name="Reverb_Small_Room_Conv" ID="{50000000-0000-0000-0000-000000000003}">
+        <Property Name="uIRDurationSec" Value="1.5" />
+      </Fx>
+    </AuxBus>
+    <Bus Name="SFX_Bus" ID="{40000000-0000-0000-0000-000000000005}">
+      <Fx Plugin="Audiokinetic Wwise Matrix Reverb" Name="Matrix_Reverb" ID="{50000000-0000-0000-0000-000000000004}" />
+    </Bus>
+  </AudioObjects>
+</WwiseDocument>

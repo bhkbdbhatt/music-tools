@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{11111111-1111-1111-1111-111111111111}" SchemaVersion="2">
+  <AudioObjects>
+    <ActorMixerHierarchy>
+      <ActorMixer Name="Default Work Unit" ID="{20000000-0000-0000-0000-000000000001}">
+        <Event Name="Play_Explosion" ID="{30000000-0000-0000-0000-000000000001}">
+          <Property Name="MaxAttenuation" Value="120" />
+        </Event>
+        <Event Name="Play_Footstep" ID="{30000000-0000-0000-0000-000000000002}" />
+        <Event Name="Play_Music_Theme" ID="{30000000-0000-0000-0000-000000000003}" />
+      </ActorMixer>
+    </ActorMixerHierarchy>
+  </AudioObjects>
+</WwiseDocument>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AudioProject name="FmodDemo">
+  <Buses>
+    <Bus name="bus:/" />
+    <Bus name="bus:/SFX" />
+    <Bus name="bus:/Music" />
+    <Bus name="bus:/VO" />
+  </Buses>
+  <Sounds>
+    <Sound id="explosion" name="SFX_Explosion" duration="3.0" channels="2" sampleRate="48000" codec="vorbis" loadType="stream" sizeBytes="36000" bank="Master" category="sfx" />
+    <Sound id="footstep" name="SFX_Footstep_Stone" duration="0.4" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="12000" bank="Master" category="sfx" />
+    <Sound id="gunshot" name="SFX_Gunshot_Rifle" duration="0.9" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="28000" bank="Master" category="sfx" />
+    <Sound id="ui_click" name="UI_Click" duration="0.12" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="6000" bank="Master" category="ui" />
+    <Sound id="amb_forest" name="Amb_Forest_Loop" duration="120" channels="2" sampleRate="48000" codec="vorbis" loadType="stream" sizeBytes="1440000" bank="Music" category="ambience" />
+    <Sound id="music_theme" name="Music_Theme" duration="240" channels="2" sampleRate="48000" codec="vorbis" loadType="stream" sizeBytes="2880000" bank="Music" category="music" />
+    <Sound id="music_combat" name="Music_Combat" duration="200" channels="2" sampleRate="48000" codec="vorbis" loadType="stream" sizeBytes="2400000" bank="Music" category="music" />
+    <Sound id="vo_grunt" name="VO_Player_Grunt" duration="4.0" channels="2" sampleRate="48000" codec="vorbis" loadType="stream" sizeBytes="48000" bank="Master" category="vo" />
+    <Sound id="sfx_pack_0" name="SFX_Impacts_Pack_0" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_1" name="SFX_Impacts_Pack_1" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_2" name="SFX_Impacts_Pack_2" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_3" name="SFX_Impacts_Pack_3" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_4" name="SFX_Impacts_Pack_4" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_5" name="SFX_Impacts_Pack_5" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_6" name="SFX_Impacts_Pack_6" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_7" name="SFX_Impacts_Pack_7" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_8" name="SFX_Impacts_Pack_8" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_9" name="SFX_Impacts_Pack_9" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_10" name="SFX_Impacts_Pack_10" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_11" name="SFX_Impacts_Pack_11" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_12" name="SFX_Impacts_Pack_12" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_13" name="SFX_Impacts_Pack_13" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_14" name="SFX_Impacts_Pack_14" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_15" name="SFX_Impacts_Pack_15" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_16" name="SFX_Impacts_Pack_16" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_17" name="SFX_Impacts_Pack_17" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_18" name="SFX_Impacts_Pack_18" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_19" name="SFX_Impacts_Pack_19" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_20" name="SFX_Impacts_Pack_20" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_21" name="SFX_Impacts_Pack_21" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_22" name="SFX_Impacts_Pack_22" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+    <Sound id="sfx_pack_23" name="SFX_Impacts_Pack_23" duration="1.5" channels="2" sampleRate="48000" codec="vorbis" loadType="memory" sizeBytes="4000000" bank="Master" category="sfx" />
+  </Sounds>
+  <Events>
+    <Event name="event:/SFX/Explosion" bank="Master" maxInstances="2"><Sound ref="explosion" /></Event>
+    <Event name="event:/SFX/Footstep" bank="Master" maxInstances="6"><Sound ref="footstep" /></Event>
+    <Event name="event:/SFX/Gunshot" bank="Master" maxInstances="8"><Sound ref="gunshot" /></Event>
+    <Event name="event:/Music/Theme" bank="Music" maxInstances="1"><Sound ref="music_theme" /></Event>
+    <Event name="event:/Music/Combat" bank="Music" maxInstances="1"><Sound ref="music_combat" /></Event>
+    <Event name="event:/Amb/Forest" bank="Music" maxInstances="1"><Sound ref="amb_forest" /></Event>
+  </Events>
+</AudioProject>

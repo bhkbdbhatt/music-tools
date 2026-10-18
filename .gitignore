@@ -1,0 +1,12 @@
+node_modules/
+dist/
+*.tsbuildinfo
+reports/
+.next/
+.DS_Store
+*.log
+.audiosure/cache/
+__pycache__/
+*.egg-info/
+build/
+.venv/
